@@ -8,7 +8,6 @@ let config = {
   messagingSenderId: '1074635944561'
 };
 firebase.initializeApp(config); // con el método firebase.initializeApp se aplica la configuración que está nuestra variable config
-
 // Getting elements (obteniendo elementos globales: inputs y botones)
 let mail = document.getElementById('email');
 let password = document.getElementById('password');

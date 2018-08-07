@@ -1,4 +1,5 @@
-const config = {
+// Initialize Firebase
+let config = {
   apiKey: 'AIzaSyCbW5lXCLbbrY6EkFROvAukVs8herq8G-Y',
   authDomain: 'social-network-5b9ef.firebaseapp.com',
   databaseURL: 'https://social-network-5b9ef.firebaseio.com',
@@ -6,8 +7,7 @@ const config = {
   storageBucket: '',
   messagingSenderId: '1074635944561'
 };
-firebase.initializeApp(config);
-
+firebase.initializeApp(config); // con el método firebase.initializeApp se aplica la configuración que está nuestra variable config
 // obteniendo imputs y botones globales
 let card = document.getElementById('card');
 let messageInput = document.getElementById('input-post');
