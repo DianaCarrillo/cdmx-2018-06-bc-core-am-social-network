@@ -11,21 +11,22 @@ h3{
 }
 
 .logi{
-    background-color: #8bc34a;
+    background-color:rgb(108, 194, 74) ;
 }
 
 
 #brand-logo1, #brand-logo2{
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Pattaya', sans-serif;
 }
 
 a{
  color:white;
 }
 
-#profile-container{
+#profile-container, .container{
     font-family: 'Montserrat Alternates', sans-serif;
-    font-weight: bold;
+    color:black;
+    background-color:rgb(250, 251, 252);
 }
 
 .userPost{
@@ -38,12 +39,13 @@ margin-top: 0;
 
 }
 
+.card{
+}
+
 .textMessage{
-    font-size: 150%;
     margin-left: 30px;
-font-family: 'Montserrat Alternates', sans-serif;
-padding-right: 10%;
-text-align: left;
+    padding-right: 10%;
+    text-align: left;
 
 }
 
@@ -60,3 +62,37 @@ text-align: left;
 .post-cont{
     width:100%;
 }
+
+.green-background{
+    background-color: rgb(108, 194, 74);
+}
+
+.login-google-btn{
+    background-color: rgb(244, 67, 54);
+    border-radius: 10px;
+    padding-right:50px;
+    padding-left:50px;
+}
+
+.login-facebook-btn{
+    background-color:rgb(66, 103, 178);
+}
+
+.favoriteCounter{
+    color: red;
+}
+
+ .background-img{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  #input-post{
+      background-color:white;
+      border-color:black;
+     
+  }
+
+ 

@@ -43,10 +43,12 @@ const pintarUsuario = (user) => {
     profileContainer.innerHTML =
     `<div class="container center">
        <div class="row">
-       <p>${user.displayName}</p>
-       <p> ${user.email}</p>
-       <div> <img class= "circle photoProfile" src= ${photoProfile}></div>
-       </div>
+        <p>${user.displayName}</p>
+        <p> ${user.email}</p>
+        <div> 
+          <img class= "circle photoProfile" src= ${photoProfile}>
+        </div>
+        </div>
        </div>`;
   } else {
     profileContainer.innerHTML =
@@ -96,8 +98,8 @@ const printPost = () => {
             <p id="card${newMessage.val().key}" class="textMessage"> ${newMessage.val().text}</p>
             </div>
             <div class ="card-action ">
-            <button type= "button" onclick=editMsg(); data-key="${newMessage.val().key}" class= "edit-message-btn waves-effect waves-light btn">Editar</button>
-           <button type="button" onclick=deleteMsg() data-key="${newMessage.val().key}" class="delete-message-btn delete waves-effect waves-light btn">Borrar</button>
+            <button type= "button" onclick=editMsg(); data-key="${newMessage.val().key}" class= "edit-message-btn green-background btn">Editar</button>
+           <button type="button" onclick=deleteMsg() data-key="${newMessage.val().key}" class="delete-message-btn delete green-background btn">Borrar</button>
            <p id ="count${newMessage.val().key}" class="favorite-counter right"></p><i onclick=starCounter() data-key="${newMessage.val().key}" class=" small material-icons right favoriteCounter">favorite</i>
          </div>
          </div>
@@ -113,8 +115,8 @@ const printPost = () => {
             <p id="card-${newMessage.val().key}" class="textMessage"> ${newMessage.val().text}</p>
             </div>
             <div class ="card-action ">
-            <button type= "button" onclick=editMsg(); data-key="${newMessage.val().key}" class= "edit-message-btn waves-effect waves-light btn">Editar</button>
-           <button type="button" onclick=deleteMsg() data-key="${newMessage.val().key}" class="delete-message-btn delete waves-effect waves-light btn">Borrar</button>
+            <button type= "button" onclick=editMsg(); data-key="${newMessage.val().key}" class= "edit-message-btn green-background btn">Editar</button>
+           <button type="button" onclick=deleteMsg() data-key="${newMessage.val().key}" class="delete-message-btn delete green-background btn">Borrar</button>
            <p id ="count${newMessage.val().key}" class="favorite-counter right"></p><i onclick=starCounter() data-key="${newMessage.val().key}" class=" small material-icons right favoriteCounter">favorite</i>
          </div>
          </div>

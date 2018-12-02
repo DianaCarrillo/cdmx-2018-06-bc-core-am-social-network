@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="background-img" lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
   <link rel="stylesheet" href="../css/main.css">
@@ -16,7 +16,7 @@
 
 <body>
   <nav>
-    <div class="nav-wrapper light-green">
+    <div class="nav-wrapper green-background">
       <div href="#!" id="brand-logo2" class="center brand-logo">Greener</div>
       <!--logout cuando se hace versión mobile -->
       <a id="log-out-mobile" href="../index.html" data-target="mobile-demo" class="sidenav-trigger">Log out</a>
@@ -32,47 +32,12 @@
 
   <!-- contenedor del perfil  -->
   <section class="container">
-    <div id="profile-container" class="green lighten-5"></div>
+    <div id="profile-container" ></div>
   </section>
 
   <!--Seccion de slider-->
 
-  <section class="slider">
-    <ul class="slides">
-      <li>
-        <img src="../images/berries-breads-breakfast-compressed.jpg">
-        <!-- random image -->
-        <div class="caption center-align">
-          <h3>¿Quieres Comer saludable?</h3>
 
-        </div>
-      </li>
-      <li>
-        <img src="../images/bowl-cherries-chicken-compressed.jpg">
-        <!-- random image -->
-        <div class="caption left-align">
-          <h3>¡Tú mismo puedes preparalo!</h3>
-
-        </div>
-      </li>
-      <li>
-        <img src="../images/bowl-delicious-diet-compressed.jpg">
-        <!-- random image -->
-        <div class="caption right-align">
-          <h3>Fácil y con ingredientes locales</h3>
-
-        </div>
-      </li>
-      <li>
-        <img src="../images/bread-close-up-delicious-compressed.jpg">
-        <!-- random image -->
-        <div class="caption center-align">
-          <h3>¡Comparte y encuentra recetas deliciosas y saludables!</h3>
-
-        </div>
-      </li>
-    </ul>
-  </section>
 
   <!--Empieza sección de comments-->
   <div class="conatiner">
@@ -80,13 +45,13 @@
       <div class="row">
         <div class="col s12 l12 m 12">
           <div id="input-publicacion" class="input-field">
-            <input id="input-post" type="text" placeholder="escribe algo para tus amigos">
+            <input type ="text"id="input-post" type="text" placeholder="escribe algo para tus amigos"> 
           </div>
         </div>
 
         <div class="row">
-          <div class="col s12 m12">
-            <a id="publicar-btn" class="waves-effect waves-light btn col s4 l2">publicar</a>
+          <div class="col s12 m12 publicar">
+            <a id="publicar-btn" class="green-background btn col s4 l2">publicar</a>
           </div>
         </div>
 
